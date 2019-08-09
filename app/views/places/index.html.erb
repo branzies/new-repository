@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <%= stylesheet_link_tag    'master' %>
-</head>
-
-<body>
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
     <h1><%= place.name %></h1>
     <i><%= place.address %></i><br /><br />
     <p><%= place.description %></p><br />
+    <p><%= will_paginate @posts %></p>
   </div>
 
 
   <hr />
 
   <% end %>
-</body>
-</html>
