@@ -13,13 +13,13 @@
   padding: 20px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-  margin:0;
-  padding:0;
+h1, h2, h3, h4, h5, h6 {
+margin:0;
+padding:0;
 }
 
 body {
-  background: image_url('papyrus.png');
+background: image_url('papyrus.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
@@ -82,4 +82,48 @@ body {
         float: none;
         border: none;
     }
+
+    .display{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 10px 0;
+    }
+
+    .invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+
+}
+
+.form-check-input {
+margin-left: 3px !important;
+}
+
+.inline-button {
+display: inline-block;
+width: 100%;
+}
+
+.inline-text {
+display: inline-block;
+width: 30%;
+text-align: center;
+}
+
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+
+#map {
+    height: 300px;
+  }
+
+.clear {
+    clear: both;
 }
